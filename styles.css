@@ -1,0 +1,97 @@
+html {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 350px;
+    top: -4px;
+    padding-left: 70px;
+    padding-right: 100px;
+}
+
+#navbar {
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    margin: 0 15px 15px 0;
+    padding: 0 30px;
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid;
+
+}
+
+#nav-header {
+    font-size: larger;
+    font-weight: 500;
+
+    border-bottom: 1px solid #cbcbcb;
+    padding: 28px 0;
+    text-align: justify;
+}
+
+.nav-link {
+    color: #666666;
+    margin-top: 0px;
+
+    border-bottom: 1px solid #cbcbcb;
+    padding: 28px 0;
+
+}
+
+
+.main-section header {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+p {
+    position: relative;
+    left: 15px;
+}
+
+
+@media only screen and (max-width: 815px) {
+
+    #main-doc {
+        position: unset;
+        margin-top: 270px;
+        margin-left: 0px;
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    #navbar {
+        position: absolute;
+        top: 0;
+        margin: 0 15px 15px 0;
+        padding: 0 10px;
+        width: 100%;
+        max-height: 230px;
+        border-bottom: 2px solid;
+        border-right: 0;
+    }
+
+    #nav-header {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .nav-link {
+        padding: 5px;
+        padding-left: 15px;
+    }
+
+}
